@@ -1,0 +1,10 @@
+{
+  "botId": "",
+  "botName": "simple-topical-bot",
+  "botUrl": "http://localhost:3978/api/messages",
+  "id": "zch5ltj67ps",
+  "locale": "",
+  "msaAppId": "",
+  "msaPassword": "",
+  "projectDir": "C:\\scratch\\simple-topical-bot"
+}
