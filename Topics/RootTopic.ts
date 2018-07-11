@@ -4,8 +4,6 @@ import { BranchOneTopic, BranchTwoTopic } from ".";
 export class RootTopic extends Topic {
     async onStart() {
         this.send("starting root");
-        BranchOneTopic.register();
-        BranchTwoTopic.register();
     }
 
     async onDispatch() {
