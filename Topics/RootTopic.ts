@@ -27,3 +27,4 @@ export class RootTopic extends Topic {
             await this.send("branch two ended");
     }
 }
+RootTopic.register();

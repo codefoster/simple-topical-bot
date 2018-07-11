@@ -6,3 +6,4 @@ export class BranchTwoTopic extends BranchTopic {
         this.end();
     }
 }
+BranchTwoTopic.register();
