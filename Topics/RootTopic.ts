@@ -7,6 +7,9 @@ export class RootTopic extends Topic {
     }
 
     async onDispatch() {
+        if (await this.dispatchToChild())
+            return;
+
         if (this.context.activity.type == "message") {
             if (/1|one|One/g.test(this.text))
                 await this.startChild(BranchOneTopic);
